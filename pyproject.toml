@@ -1,0 +1,21 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "scanandpay"
+version = "0.0.1"
+description = "Official Scan & Pay Python SDK — accept PayTo PayID payments with QR code-based instant verification at checkout. Coming soon."
+readme = "README.md"
+license = "Apache-2.0"
+requires-python = ">=3.9"
+authors = [
+    { name = "Scan & Pay", email = "hi@scanandpay.com.au" },
+]
+classifiers = [
+    "Development Status :: 1 - Planning",
+]
+
+[project.urls]
+Homepage = "https://scanandpay.com.au"
+Documentation = "https://docs.scanandpay.com.au"
